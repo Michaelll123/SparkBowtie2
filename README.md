@@ -36,11 +36,9 @@ Here it is an example of how to run **SparkBowtie2** .This example assumes that 
 
 First, we get the input Fastq reads from the [1000 Genomes Project][4] ftp:
 **(if you already have any other reads on your cluster node then you can skip this step.)**
-	wget
-–O /data ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data/NA12750/sequence_read/ERR000589_1.filt.fastq.gz
-		wget 
-–O /data ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data/NA12750/sequence_read/ERR000589_2.filt.fastq.gz
-	
+	wget –O /data ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data/NA12750/sequence_read/ERR000589_1.filt.fastq.gz
+
+	wget –O /data ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data/NA12750/sequence_read/ERR000589_2.filt.fastq.gz
 Next, the downloaded files should be uncompressed:
 
 	gzip -d ERR000589_1.filt.fastq.gz
