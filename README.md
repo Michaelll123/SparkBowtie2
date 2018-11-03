@@ -25,8 +25,7 @@ The project keeps a standard Maven structure. The source code is in the *src/mai
 * **genomic sequence files** - Including the reference genome file and the genomic reads you hope to analyse.
 * **Index files** - To create an index for the reference genome ,you have to create a new temporary directory (it doesn’t matter where), change into that directory, and run:
 
-
-$BT2_HOME/bowtie2-build /data/Index index
+	$BT2_HOME/bowtie2-build /data/Index index
 
 ## Building
 Given that the Maven project file has been provided, you can just download the file and import it into IDEA to build. 
