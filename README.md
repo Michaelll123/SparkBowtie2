@@ -25,8 +25,8 @@ The project keeps a standard Maven structure. The source code is in the *src/mai
 * **genomic sequence files** - Including the reference genome file and the genomic reads you hope to analyse.
 * **Index files** - To create an index for the reference genome ,you have to create a new temporary directory (it doesn’t matter where), change into that directory, and run:
 
+
 $BT2_HOME/bowtie2-build /data/Index index
-FASTQ_FILE_PATH is the path where your fastq file locates.
 
 ## Building
 Given that the Maven project file has been provided, you can just download the file and import it into IDEA to build. 
@@ -60,7 +60,7 @@ Options:
 * **-x** - Index of reference genome
 * **-1** - First genomic reads .
 * **-2** - Second genomic reads.
-* **--S** - The path of output. 
+* **-S** - The path of output. 
 The last three arguments are all HDFS files or paths.
 More options can be found [here][5] 
 
