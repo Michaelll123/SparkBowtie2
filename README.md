@@ -1,6 +1,6 @@
 # Brief introduction of SparkBowtie2 #
 
-**SparkBowtie2** is a new distributed sequence alignment software. It combines the [Apache Spark][1] with the sequence alignment software —— [Bowtie2][2], takes advantage of Spark in high processing efficiency and promotes the Bowtie2 performance. As is known that it is not likely for Java to call C++ codes directly and Bowtie2 is written in C++ language and Spark is running on Java Virtual Machine (JVM).Thus, the [JNI][3] (Java Native Interface) technology is used to establish the calls between different programming languages, which avoids the trouble of installing Bowtie2 on each worker node in the Spark cluster.  
+**SparkBowtie2** is a new distributed sequence alignment software. It combines the [Apache Spark][1] with the sequence alignment software —— [Bowtie2][2], takes advantage of Spark in high processing efficiency and has a better performance than Bowtie2 in terms of running time. As is known that it is not likely for Java to call C++ codes directly and Bowtie2 is written in C++ language and Spark is running on Java Virtual Machine (JVM).Thus, the [JNI][3] (Java Native Interface) technology is used to establish the calls between different programming languages, which avoids the trouble of installing Bowtie2 on each worker node in the Spark cluster.  
 
 SparkBowtie2 has the following characteristics:
 
