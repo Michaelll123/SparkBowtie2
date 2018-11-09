@@ -1,6 +1,6 @@
 # Brief introduction of SparkBowtie2 #
 
-**SparkBowtie2** is a new distributed sequence alignment software which combines the [Apache Spark][1] with the sequence alignment software, [Bowtie2][2], takes advantage of Spark in high processing efficiency, and promotes the Bowtie2 performance. In the process of the development, because Bowtie2 is written by **C++** language, Spark is running on Java Virtual Machine (JVM), and it is impossible from Java to call C++ codes directly, the [JNI][3] (Java Native Interface) technology is used to establish the calls between different programming languages, avoiding the trouble of installing Bowtie2 on each Worker Node in the Spark cluster, with the flexibility of parallel invocations.
+**SparkBowtie2** is a new distributed sequence alignment software. It combines the [Apache Spark][1] with the sequence alignment software —— [Bowtie2][2], takes advantage of Spark in high processing efficiency and promotes the Bowtie2 performance. As is known that it is not likely for Java to call C++ codes directly and Bowtie2 is written in C++ language and Spark is running on Java Virtual Machine (JVM).Thus, the [JNI][3] (Java Native Interface) technology is used to establish the calls between different programming languages, which avoids the trouble of installing Bowtie2 on each worker node in the Spark cluster.  
 
 SparkBowtie2 has the following characteristics:
 
@@ -8,7 +8,7 @@ SparkBowtie2 has the following characteristics:
 
  **ii)** It contains the original options and parameters of Bowtie2, and users do not need to change the usage habits.
 
- **iii)** The running time of SparkBowtie2 is affected by the number of Worker Nodes, RDD partitions, and the multithreading. The experimental results show that SparkBowtie2 is about 7-10 times faster than Bowtie2 in the sequence alignments of genome or transcriptome, with the efficient and reliable performances, and is of a value of research and applications.
+ **iii)** The running time of SparkBowtie2 is affected by the number of Worker Nodes, RDD partitions, and the multithreading. the parameter is recommended in this paper to obtain the optimal performance of sequence alignments. The experimental results show that SparkBowtie2 is about 7-10 times faster than Bowtie2 in the sequence alignments of genome or transcriptome and it is obvious that the efficient and reliable performance of SparkBowtie2 is of value to researches and applications
 
 # Structure #
 The project keeps a standard Maven structure. The source code is in the *src/main* folder. Inside it, we can find two subfolders:
