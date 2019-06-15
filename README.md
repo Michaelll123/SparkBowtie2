@@ -28,8 +28,13 @@ The project keeps a standard Maven structure. The source code is in the *src/mai
 	$BT2_HOME/bowtie2-build /data/Index index
 
 ## Building
-Given that the Maven project file has been provided, you can just download the file and import it into IDEA to build. 
-The executable jar file has also been provided if you don’t want to build it by yourself.
+
+The default way to build **SparkBWA** is:
+
+	git clone https://github.com/Michaelll123/SparkBowtie2.git
+	cd SparkBowtie2
+	mvn package
+you can also directly use the SparkBowtie2-1.0-SNAPSHOT.jar.
 
 ## Running SparkBowtie2 ##
 **SparkBowtie2** requires a working Spark cluster. Users should take into account that at least 7500MB of free memory per worker node are required.
