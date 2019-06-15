@@ -29,7 +29,7 @@ The project keeps a standard Maven structure. The source code is in the *src/mai
 
 ## Building
 
-The default way to build **SparkBWA** is:
+The default way to build **SparkBowtie2** is:
 
 	git clone https://github.com/Michaelll123/SparkBowtie2.git
 	cd SparkBowtie2
