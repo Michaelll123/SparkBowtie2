@@ -1,0 +1,10 @@
+git:
+  quite: true
+  depth: 1
+  submodules: false
+
+cache: yarn
+
+install: yarn
+
+script: yarn build 
