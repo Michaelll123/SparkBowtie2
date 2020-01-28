@@ -8,7 +8,7 @@ SparkBowtie2 has the following characteristics:
 
  **ii)** It contains the original options and parameters of Bowtie2, and users do not need to change the usage habits.
 
- **iii)** The running time of SparkBowtie2 is affected by the number of Worker Nodes, RDD partitions, and the multithreading. the parameter is recommended in this paper to obtain the optimal performance of sequence alignments. The experimental results show that SparkBowtie2 is about 7-10 times faster than Bowtie2 in the sequence alignments of genome or transcriptome and it is obvious that the efficient and reliable performance of SparkBowtie2 is of value to researches and applications
+ **iii)** The running time of SparkBowtie2 is affected by the number of Worker Nodes, RDD partitions, and the multithreading. the parameter is recommended in this paper to obtain the optimal performance of sequence alignments. The experimental results show that SparkBowtie2 is about 7-10 times faster than Bowtie2 in the sequence alignments of genome or transcriptome and it is obvious that the efficient and reliable performance of SparkBowtie2 is of value to researches and applications.
 
 # Structure #
 The project keeps a standard Maven structure. The source code is in the *src/main* folder. Inside it, we can find two subfolders:
