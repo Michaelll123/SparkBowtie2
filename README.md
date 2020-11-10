@@ -74,7 +74,7 @@ After the execution, you can find the result file (***.sam) in the /OutputFile o
 # How to cite SparkBowtie2? #
 **Please cite the paper below:**
 
-Yu Jiantao, Bian Enze, Liu Shengdong, Wang Taiming, Hui Yixiang, Guo Maozu. Methods of designing and implementing the software of SparkBowtie2 for parallelized sequence alignments. (submittd to the Journal of Harbin Institute of Technology(in Chinese))
+Yu Jiantao, Bian Enze, Liu Shengdong, Wang Taiming, Hui Yixiang, Guo Maozu. Methods of designing and implementing the software of SparkBowtie2 for parallelized sequence alignments. (submittd to the Journal of Harbin Engineering University(in Chinese))
 
 [1]: https://spark.apache.org/
 [2]: http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
